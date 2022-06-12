@@ -80,6 +80,7 @@ void Level::gettingUserInput(Entity& backgroundTextureEntity, bool* levelRunning
             }
         }
 
+        // Balls
         window->clearRenderer();
 
         window->renderTextureFullScreen(backgroundTextureEntity);
